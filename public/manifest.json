@@ -1,0 +1,16 @@
+{
+  "name": "TreauxAnon - Anti-Francophile Podcast",
+  "short_name": "TreauxAnon",
+  "description": "The ONLY podcast fighting the French conspiracy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#c1272d",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ]
+}

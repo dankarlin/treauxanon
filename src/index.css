@@ -1,0 +1,126 @@
+:root {
+  --treaux-red: #c1272d;
+  --treaux-dark: #1a1a1a;
+  --treaux-light: #f8f9fa;
+  --treaux-accent: #dc3545;
+  --treaux-gold: #ffd700;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--treaux-dark);
+  color: var(--treaux-light);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--treaux-red) 0%, var(--treaux-dark) 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+  pointer-events: none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--treaux-red) !important;
+}
+
+.btn-treaux {
+  background-color: var(--treaux-red);
+  border-color: var(--treaux-red);
+  color: white;
+}
+
+.btn-treaux:hover {
+  background-color: var(--treaux-accent);
+  border-color: var(--treaux-accent);
+  color: white;
+}
+
+.episode-card {
+  background-color: var(--treaux-dark);
+  border: 1px solid var(--treaux-red);
+  transition: transform 0.3s ease;
+}
+
+.episode-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(193, 39, 45, 0.3);
+}
+
+.conspiracy-alert {
+  background: linear-gradient(45deg, var(--treaux-red), var(--treaux-accent));
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  border-left: 5px solid var(--treaux-gold);
+}
+
+.french-flag {
+  background: linear-gradient(to right, #002395 33%, white 33% 66%, #ed2939 66%);
+  height: 30px;
+  width: 45px;
+  display: inline-block;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+}
+
+.crossed-out {
+  position: relative;
+}
+
+.crossed-out::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--treaux-red);
+  transform: rotate(-15deg);
+}
+
+.treaux-logo {
+  width: 80px;
+  height: 80px;
+  background: var(--treaux-red);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin: 0 auto 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 80vh;
+  }
+  
+  .treaux-logo {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+}
