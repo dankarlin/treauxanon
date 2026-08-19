@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 
 function About() {
@@ -24,8 +23,8 @@ function About() {
           <Col lg={8} className="mx-auto text-center mb-5">
             <h2 className="display-4 mb-4 text-white">About TreauxAnon</h2>
             <p className="lead text-white-50">
-              We are the resistance against French cultural imperialism. 
-              While others enjoy their "joie de vivre," we see through the beret-wearing facade.
+              We are the resistance against French cultural imperialism.
+              While others enjoy their &ldquo;joie de vivre,&rdquo; we see through the beret-wearing facade.
             </p>
           </Col>
         </Row>
@@ -36,15 +35,15 @@ function About() {
               <Card.Body>
                 <Card.Title className="h4 mb-3">🎯 Our Mission</Card.Title>
                 <Card.Text>
-                  To expose the French conspiracy hiding in plain sight. From their suspicious 
-                  35-hour work weeks to their inexplicable obsession with cheese aging, 
-                  we investigate what they don't want you to know.
+                  To expose the French conspiracy hiding in plain sight. From their suspicious
+                  35-hour work weeks to their inexplicable obsession with cheese aging,
+                  we investigate what they don&rsquo;t want you to know.
                 </Card.Text>
                 <ul className="text-white-50">
-                  <li>Uncovering Big Baguette's monopoly</li>
+                  <li>Uncovering Big Baguette&rsquo;s monopoly</li>
                   <li>Investigating mime surveillance networks</li>
                   <li>Exposing champagne region gatekeeping</li>
-                  <li>Revealing the truth about French toast (spoiler: it's not French)</li>
+                  <li>Revealing the truth about French toast (spoiler: it&rsquo;s not French)</li>
                 </ul>
               </Card.Body>
             </Card>
@@ -55,17 +54,17 @@ function About() {
               <Card.Body>
                 <Card.Title className="h4 mb-3">⚠️ Why It Matters</Card.Title>
                 <Card.Text>
-                  Every croissant consumed is another victory for French soft power. 
-                  Every "oui oui" heard on the streets brings us closer to total 
+                  Every croissant consumed is another victory for French soft power.
+                  Every &ldquo;oui oui&rdquo; heard on the streets brings us closer to total
                   Francophone domination.
                 </Card.Text>
                 <div className="conspiracy-alert mt-3">
-                  <strong>WAKE UP SHEEPLE!</strong> They've normalized:
+                  <strong>WAKE UP SHEEPLE!</strong> They&rsquo;ve normalized:
                   <ul className="mt-2 mb-0">
-                    <li>Eating snails as "cuisine"</li>
+                    <li>Eating snails as &ldquo;cuisine&rdquo;</li>
                     <li>Believing wine improves with age</li>
                     <li>Thinking berets are fashionable</li>
-                    <li>Accepting mime as "art"</li>
+                    <li>Accepting mime as &ldquo;art&rdquo;</li>
                   </ul>
                 </div>
               </Card.Body>

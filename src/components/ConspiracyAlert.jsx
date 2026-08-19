@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container, Alert } from 'react-bootstrap'
 
 function ConspiracyAlert() {
@@ -14,7 +13,7 @@ function ConspiracyAlert() {
         <hr />
         <p className="mb-0">
           <small>
-            💡 Pro tip: Mime performers are NOT just street entertainers - they're surveillance operatives!
+            💡 Pro tip: Mime performers are NOT just street entertainers - they&rsquo;re surveillance operatives!
           </small>
         </p>
       </Alert>
